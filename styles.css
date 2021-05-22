@@ -1,0 +1,188 @@
+/******************** TAG SELECTORS  ********************/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat';
+
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/******************** CLASS SELECTORS  ********************/
+.introduction {
+    text-align: center;
+    font-family: "Ubuntu";
+}
+.montserrat {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.my-info{
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navnav {
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.icon {
+    color: #3d5fbe;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #2978b5;
+}
+
+.testimonials-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-img1 {
+    height: 100px;
+    width: 80px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+/******************** ID SELECTORS  ********************/
+#title {
+    color: black;
+    background-color: #2978b5;
+}
+
+#cusbtn {
+    margin-top: 30px; 
+    margin-left: 80px;
+}
+
+#cusbtn1 {
+    margin-top: 20px; 
+    margin-left: 10px;
+}
+
+#cta {
+    background-color: #2978b5;
+    text-align: center;
+}
+
+.ctah3 {
+    padding: 7% 15%;
+    font-family: 'Montserrat'; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+
+}
+.ctabtn {
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.ctaicon{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+/* Features Secction */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #2978b5;
+    color: #ffffff;
+}
+
+#press {
+    background-color: #2978b5;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 13%;
+    margin: 20px 30px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+    .phone {
+        transform: rotate(0);
+        position: static;
+    }
+}
